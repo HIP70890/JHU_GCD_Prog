@@ -57,7 +57,4 @@ On the tidy_data.txt
   - tBodyGyroJerk-std()-X
   - tBodyGyroJerk-std()-Y
   - tBodyGyroJerk-std()-Z
-- For each measurement, and grouped along teh subject and activity, the 
-- 
-
-
+- For each measurement, and grouped along the subject and activity, the means are being calculated.

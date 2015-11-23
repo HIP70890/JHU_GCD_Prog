@@ -63,7 +63,7 @@ gcd.load.merged <- function(base_path, sets) {
 
 gcd.tidy_data.create <- function(data) {
   ## calculate 
-  result <- aggregate(res, by = list(res$subject, res$activity), mean)
+  result <- aggregate(data, by = list(data$subject, data$activity), mean)
 
   ## ok, quite a hack, but didn't find a other solution in the remaining time
   setnames(result, "subject", "drop")
